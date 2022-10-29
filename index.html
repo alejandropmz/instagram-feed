@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Instagram feed</title>
+</head>
+
+<body>
+
+  <!--Container instagram completo-->
+  <div class="container-total">
+
+    <!--header-->
+    <div class="header">
+      <img class="logo-ig" src="https://svgsilh.com/png-1024/1594387.png" alt="">
+      <div class="header-medio">
+      </div>
+      <img class="icons" src="https://cdn-icons-png.flaticon.com/512/5948/5948600.png" alt="">
+      <img class="icons" src="https://cdn-icons-png.flaticon.com/512/535/535285.png" alt="">
+      <img class="icons" src="https://cdn-icons-png.flaticon.com/512/5948/5948514.png" alt="">
+    </div>
+
+    <!--Estados-->
+    <div class="estados">
+      <div class="flex-column"><img class="fotos-estado mi-foto-estado" src="foto html .jpg" alt="">
+      <span>alejandropachecom</span>
+      </div>
+      <div class="fotos-seguidos" style="margin-right: 15px;">
+        <div class="flex-column"><img class="fotos-estado"
+            src="https://www.recreoviral.com/wp-content/uploads/2017/04/tipos-de-selfie-7.jpg" alt="">
+          <span>ladyjackson90</span>
+        </div>
+        <div class="flex-column"><img class="fotos-estado"
+          src="https://hbomax-images.warnermediacdn.com/2020-05/square%20social%20logo%20400%20x%20400_0.png" alt="">
+        <span>hbomax</span>
+        </div>
+        <div class="flex-column"><img class="fotos-estado"
+          src="data:image/jpeg;base64,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"
+          alt="">
+        <span>pauleddison</span>
+        </div>
+        <div class="flex-column"><img class="fotos-estado"
+          src="https://media.istockphoto.com/photos/silhouette-of-a-young-man-smiling-and-looking-up-picture-id177251475?k=20&m=177251475&s=612x612&w=0&h=R_C5FOSKJe_HHLed5Do2G3eDgw1m8TsgGlFLBMXA60M="
+          alt="">
+        <span>spencerbradley</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="publicacion-completa">
+      <!--Foto perfil y nombre de usuario-->
+      <div class="foto-nombre">
+        <div class="nombre">
+          <img class="fotos-feed"
+            src="https://yt3.ggpht.com/KbHPZzE60hlU8tpA9dXsUtTX3yp_b5__Gv5xc_da_NKDEgLsoHK8W7wRmrYJo1DoiJC6E6EI=s900-c-k-c0x00ffffff-no-rj"
+            alt="">
+          <div><strong class="nomb">4GeeksAcademy</strong></div>
+        </div>
+        <!--separador de foto y nombre con los 3 puntos de opciones-->
+        <div style="margin: auto;"></div>
+        <!--tres puntos de opciones-->
+        <img class="foto-feed" style="width: 20px; height: 20px; margin-top: 5px;"
+          src="https://cdn-icons-png.flaticon.com/512/2893/2893795.png" alt="">
+      </div>
+
+      <!--publicacion-->
+      <div class="publicacion">
+        <img src="https://4geeksacademy.com/static/e87935aadbb3844e3734315214b5f032/f6992/madrid-3.png" alt="">
+        <div class="botones-inferiores-publicacion">
+          <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="">
+          <img src="https://cdn-icons-png.flaticon.com/512/1947/1947247.png" alt="">
+          <img style="height: 22px; width: 22px;" style="margin-bottom: 1px;"
+            src="https://cdn-icons-png.flaticon.com/512/4406/4406119.png" alt="">
+          <img style="margin-left: 260px;" src="https://cdn-icons-png.flaticon.com/512/5894/5894523.png" alt="">
+        </div>
+        <div class="likes">
+          <strong>325,140 Me gusta</strong>
+        </div>
+        <div class="resena">
+          <strong>4GeeksAcademy</strong> <span style="color: rgb(83, 83, 179);">#study #future #tecnology</span> Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Labore a ratione, sequi, consectetur corporis dolores hic
+          qui ex perspiciatis recusandae officiis omnis natus rerum vitae totam excepturi iusto quidem quasi?
+        </div>
+        <div class="comentarios">
+          <span class="comentarios">Ver los 90 comentarios</span>
+        </div>
+        <div class="footer">
+          <span class="fot"><span style="color: rgb(123, 116, 116);">Hace 1 hora </span>• Ver traducción</span>
+        </div>
+      </div>
+    </div>
+
+    <!--2da publicacion-->
+
+    <div class="publicacion-completa">
+      <!--Foto perfil y nombre de usuario-->
+      <div class="foto-nombre">
+        <div class="nombre">
+          <img class="fotos-feed"
+            src="https://www.elespectador.com/resizer/U_4SSCrPdYrQMJRoonwa6lsCxqA=/525x350/filters:format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/MFPRJ36NPS36OYSG27QNUDAVQ4.jpg"
+            alt="">
+          <div><strong class="nomb">nairoquintana0</strong></div>
+        </div>
+        <!--separador de foto y nombre con los 3 puntos de opciones-->
+        <div style="margin: auto;"></div>
+        <!--tres puntos de opciones-->
+        <img class="foto-feed" style="width: 20px; height: 20px; margin-top: 5px;"
+          src="https://cdn-icons-png.flaticon.com/512/2893/2893795.png" alt="">
+      </div>
+
+      <!--publicacion-->
+      <div class="publicacion">
+        <img src="https://www.ciclismointernacional.com/wp-content/uploads/2022/02/NAIRO-QUINTANA-HAUT-VAR.jpg" alt="">
+        <div class="botones-inferiores-publicacion">
+          <img src="https://cdn-icons-png.flaticon.com/512/535/535285.png" alt="">
+          <img src="https://cdn-icons-png.flaticon.com/512/1947/1947247.png" alt="">
+          <img style="height: 22px; width: 22px;" style="margin-bottom: 1px;"
+            src="https://cdn-icons-png.flaticon.com/512/4406/4406119.png" alt="">
+          <img style="margin-left: 260px;" src="https://cdn-icons-png.flaticon.com/512/5894/5894523.png" alt="">
+        </div>
+        <div class="likes">
+          <strong>1,845,140 Me gusta</strong>
+        </div>
+        <div class="resena">
+          <strong>nairoquintana0</strong> Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Labore a ratione, sequi, consectetur corporis dolores hic
+          qui ex perspiciatis recusandae officiis omnis natus rerum vitae totam excepturi iusto quidem quasi?
+        </div>
+        <div class="comentarios">
+          <span class="comentarios">Ver los 1053 comentarios</span>
+        </div>
+        <div class="footer">
+          <span class="fot"><span style="color: rgb(123, 116, 116);">Hace 12 hora </span>• Ver traducción</span>
+        </div>
+      </div>
+    </div>
+
+    <!--3ra publicacion-->
+
+    <div class="publicacion-completa">
+      <!--Foto perfil y nombre de usuario-->
+      <div class="foto-nombre">
+        <div class="nombre">
+          <img class="fotos-feed foto-feed-estado"
+            src="https://media.istockphoto.com/photos/silhouette-of-a-young-man-smiling-and-looking-up-picture-id177251475?k=20&m=177251475&s=612x612&w=0&h=R_C5FOSKJe_HHLed5Do2G3eDgw1m8TsgGlFLBMXA60M="
+            alt="">
+          <div><strong class="nomb">spencerbradley</strong></div>
+        </div>
+        <!--separador de foto y nombre con los 3 puntos de opciones-->
+        <div style="margin: auto;"></div>
+        <!--tres puntos de opciones-->
+        <img class="foto-feed" style="width: 20px; height: 20px; margin-top: 5px;"
+          src="https://cdn-icons-png.flaticon.com/512/2893/2893795.png" alt="">
+      </div>
+
+      <!--publicacion-->
+      <div class="publicacion">
+        <img src="https://i.picsum.photos/id/441/500/500.jpg?hmac=QCj5CXwZTQYVIoLA_NgRfgWepWjEAXvnQnQLLxNieko" alt="">
+        <div class="botones-inferiores-publicacion">
+          <img src="https://cdn-icons-png.flaticon.com/512/535/535285.png" alt="">
+          <img src="https://cdn-icons-png.flaticon.com/512/1947/1947247.png" alt="">
+          <img style="height: 22px; width: 22px;" style="margin-bottom: 1px;"
+            src="https://cdn-icons-png.flaticon.com/512/4406/4406119.png" alt="">
+          <img style="margin-left: 260px;" src="https://cdn-icons-png.flaticon.com/512/5894/5894523.png" alt="">
+        </div>
+        <div class="likes">
+          <strong>45,140 Me gusta</strong>
+        </div>
+        <div class="resena">
+          <strong>spencerbradley</strong> <span style="color: rgb(83, 83, 179)">#city #people</span> Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Labore a ratione, sequi, consectetur corporis dolores hic
+          qui ex perspiciatis recusandae officiis omnis natus rerum vitae totam excepturi iusto quidem quasi?
+        </div>
+        <div class="comentarios">
+          <span class="comentarios">Ver los 21 comentarios</span>
+        </div>
+        <div class="footer">
+          <span class="fot"><span style="color: rgb(123, 116, 116);">Hace 32 minutos </span>• Ver traducción</span>
+        </div>
+      </div>
+    </div>
+
+    <!--4ta publicacion-->
+
+    <div class="publicacion-completa">
+      <!--Foto perfil y nombre de usuario-->
+      <div class="foto-nombre">
+        <div class="nombre">
+          <img class="fotos-feed foto-feed-estado"
+            src="https://hbomax-images.warnermediacdn.com/2020-05/square%20social%20logo%20400%20x%20400_0.png" alt="">
+          <div><strong class="nomb">hbomax</strong></div>
+        </div>
+        <!--separador de foto y nombre con los 3 puntos de opciones-->
+        <div style="margin: auto;"></div>
+        <!--tres puntos de opciones-->
+        <img class="foto-feed" style="width: 20px; height: 20px; margin-top: 5px;"
+          src="https://cdn-icons-png.flaticon.com/512/2893/2893795.png" alt="">
+      </div>
+
+      <!--publicacion-->
+      <div class="publicacion">
+        <img
+          src="https://www.edinburghnews.scotsman.com/webimg/b25lY21zOmU2ZjhkMmZmLTVkYTItNDQ3Ny1hNjY1LTM1NjdhNmNhY2UwNjpmZjY0NzQ2Zi0zNjdiLTRlNGMtOWMxYy01MDg1OWE4MjlhYTU=.jpg?width=1200&enable=upscale"
+          alt="">
+        <div class="botones-inferiores-publicacion">
+          <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="">
+          <img src="https://cdn-icons-png.flaticon.com/512/1947/1947247.png" alt="">
+          <img style="height: 22px; width: 22px;" style="margin-bottom: 1px;"
+            src="https://cdn-icons-png.flaticon.com/512/4406/4406119.png" alt="">
+          <img style="margin-left: 260px;" src="https://cdn-icons-png.flaticon.com/512/5894/5894523.png" alt="">
+        </div>
+        <div class="likes">
+          <strong>2,845,280 Me gusta</strong>
+        </div>
+        <div class="resena">
+          <strong>hbomax</strong><span style="color: rgb(83, 83, 179)"> #dragons #hod #hbomax</span> Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Labore a ratione, sequi, consectetur corporis dolores hic
+          qui ex perspiciatis recusandae officiis omnis natus rerum vitae totam excepturi iusto quidem quasi?
+        </div>
+        <div class="comentarios">
+          <span class="comentarios">Ver los 4120 comentarios</span>
+        </div>
+        <div class="footer">
+          <span class="fot"><span style="color: rgb(123, 116, 116);">Hace 4 días </span>• Ver traducción</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

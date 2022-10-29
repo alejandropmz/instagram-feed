@@ -1,0 +1,161 @@
+body {
+  background-color: black;
+}
+
+.container-total {
+  width: 400px;
+  height: 2000px;
+  margin: auto;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  height: 50px;
+}
+
+.logo-ig {
+  width: 120px;
+  height: 60px;
+margin-bottom: 10px;
+margin-left: 5px;
+}
+
+.header-medio {
+  margin: auto;
+}
+
+.icons {
+  margin: 12px 10px 10px 10px;
+  height: 25px;
+  width: 25px;
+}
+
+/**Colocar los nombres debajo de los estados**/
+
+.estados {
+  display: flex;
+  padding-bottom: 0px;
+}
+
+.fotos-estado {
+  border: 2px solid rgb(209, 122, 151);
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  padding: 1px;
+  margin-left: 8px;
+}
+
+.fotos-seguidos {
+  margin: 5px 5px 5px auto;
+  display: flex;
+}
+
+.estados span {
+  text-align: center;
+  font-size: 9px;
+  margin-top: 3px;
+  font-family: 'Inter', sans-serif;
+  margin-left: 7px;
+}
+
+.fotos-seguidos span {
+  text-align: center;
+  font-size: 9px;
+  margin-top: 3px;
+  font-family: 'Inter', sans-serif;
+  margin-left: 7px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mi-foto-estado {
+  padding: 1px;
+  border: 2px solid rgb(207, 202, 202);
+  margin-top: 5px;
+}
+
+/**Que el nombre quede centrado en cuanto a la foto**/
+
+.foto-nombre {
+  display: flex;
+  height: 35px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+
+}
+
+.fotos-feed {
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.foto-feed-estado {
+  padding: 1px;
+  border: 2px solid rgb(209, 122, 151);
+}
+
+.nombre {
+  display: flex;
+  align-items: center;
+}
+
+.nomb {
+  margin-left: 6px;
+}
+
+.publicacion {
+  height: 430px;
+}
+
+.publicacion img {
+  width: 400px;
+  height: 300px;
+}
+
+.botones-inferiores-publicacion {
+  height: 30px;
+  margin-left: 2px;
+  margin-bottom: 5px;
+}
+
+.likes {
+  font-size: 10px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  font-family: 'Inter', sans-serif;
+}
+
+.botones-inferiores-publicacion img {
+  height: 25px;
+  width: 25px;
+  margin: 2px 2px 2px 5px;
+
+}
+
+.resena {
+  margin: 2px 0px 0px 5px;
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.comentarios {
+  color: rgb(123, 116, 116);
+  margin: 3px 0px 0px 3px;
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer {
+  height: 14px;
+  margin: 5px 0px 0px 6px;
+  font-size: 8px;
+  font-family: 'Inter', sans-serif;
+}
